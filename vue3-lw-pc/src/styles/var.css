@@ -1,0 +1,36 @@
+@import url(/static/css/var.css);
+/* 可以在此定义适用于自己团队的css 变量*/
+
+/* element-plus var */
+:root,
+html.dark {
+  --el-color-primary: var(--color);
+  --el-color-primary-light-3: var(--color-light-3);
+  --el-color-primary-light-5: var(--color-light-5);
+  --el-color-primary-light-7: var(--color-light-7);
+  --el-color-primary-light-8: var(--color-light-8);
+  --el-color-primary-light-9: var(--color-light-9);
+  --el-color-primary-dark-2: var(--color-dark);
+
+  --el-color-success: var(--color-success);
+
+  /* // --el-color-info: #fa7216;
+  // --el-color-info: #1E1E1E; */
+
+  /* --el-datepicker-inrange-background-color: var(--border-color-extra-light);
+  --el-datepicker-inrange-hover-background-color: var(--border-color-extra-light); */
+
+  --el-button-font-weight: 400;
+
+  /* // --el-color-text-regular: #1f2d3d; */
+}
+:root {
+  --el-color-warning: var(--color-warning);
+  --el-color-danger: var(--color-danger);
+  --el-border-color-extra-light: #e6f8ef;
+
+  --el-border-color-light: #dfe4ed;
+  --el-border-color-lighter: var(--border-black-9);
+
+  --el-table-border: 1px solid #dfe6ec;
+}
